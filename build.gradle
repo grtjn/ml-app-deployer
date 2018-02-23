@@ -21,6 +21,8 @@ dependencies {
   compile 'org.apache.httpcomponents:httpclient:4.3.5'
   compile 'org.springframework:spring-web:4.3.5.RELEASE'
 
+	compile "com.beust:jcommander:1.72"
+
   testCompile 'com.marklogic:ml-junit:' + mlJunitVersion
   testCompile 'commons-io:commons-io:2.5'
 
